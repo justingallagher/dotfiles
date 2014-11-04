@@ -20,6 +20,6 @@ antigen bundle command-not-found
 antigen bundle autoenv
 antigen bundle git
 antigen bundle zsh-users/zsh-syntax-highlighting
-antigen theme sunrise
+antigen theme fino
 antigen apply
 # End Antigen
