@@ -19,7 +19,7 @@ compinit
 # End of lines added by compinstall
 
 # Antigen
-source ~/git/dotfiles/lib/antigen/antigen.zsh
+source ~/.lib/antigen/antigen.zsh
 antigen use oh-my-zsh
 antigen bundle autoenv
 antigen bundle colored-man
