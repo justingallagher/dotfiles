@@ -1,0 +1,26 @@
+# @file ssh/config
+# @brief Sets up ssh settings and aliases
+# @author Justin Gallagher (justingallag@gmail.com)
+# @since 2014-11-05
+
+# Persist sessions for 10 minutes
+ControlPersist 10m
+
+# aliases
+
+host executor
+hostname executor.justingallag.com
+user justin
+
+host modsnake
+hostname fuego.sbp.ri.cmu.edu
+user jrgallag
+port 7531
+
+host andrew
+hostname unix.andrew.cmu.edu
+user jrgallag
+
+host shark
+hostname shark.ics.cs.cmu.edu
+user jrgallag
