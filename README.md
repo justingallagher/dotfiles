@@ -18,3 +18,17 @@ export RCRC=`pwd`/rcrc;
 lsrc -d .;
 rcup -d . -v;
 ```
+4. Install Antigen
+```
+git submodule update --init --recursive
+```
+5. Restart your terminal to allow antigen to install your modules.
+6. Open vim, and run:
+```
+:PluginInstall
+```
+7. From zsh, configure YouCompleteMe. Ensure that `build-essential`, `cmake`,
+and `python-dev` packages are installed, then run:
+```
+~/.vim/bundle/YouCompleteMe/install.sh --clang-completer
+```
