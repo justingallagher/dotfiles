@@ -1,3 +1,8 @@
+# @file zshrc
+# @brief Configures custom zsh settings and plugins
+# @author Justin Gallagher (justingallag@gmail.com)
+# @since 2014-11-04
+
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
 HISTSIZE=1000
@@ -27,6 +32,9 @@ antigen bundle vundle
 antigen bundle git
 antigen bundle
 antigen bundle zsh-users/zsh-syntax-highlighting
-antigen theme fino
 antigen apply
 # End Antigen
+
+# Theme
+source ~/git/dotfiles/prompt.zsh-theme
+# End theme
