@@ -16,9 +16,16 @@ compinit
 # Antigen
 source ~/git/dotfiles/lib/antigen/antigen.zsh
 antigen use oh-my-zsh
-antigen bundle command-not-found
 antigen bundle autoenv
+antigen bundle colored-man
+antigen bundle colorize
+antigen bundle command-not-found
+antigen bundle compleat
+antigen bundle cp
+antigen bundle safe-paste
+antigen bundle vundle
 antigen bundle git
+antigen bundle
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen theme fino
 antigen apply
