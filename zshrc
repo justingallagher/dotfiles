@@ -27,13 +27,16 @@ antigen bundle colorize
 antigen bundle command-not-found
 antigen bundle compleat
 antigen bundle cp
+antigen bundle git
 antigen bundle safe-paste
 antigen bundle vundle
-antigen bundle git
 antigen bundle
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen apply
 # End Antigen
+
+# Vundle
+vundle-init
 
 # Theme
 source ~/git/dotfiles/prompt.zsh-theme
