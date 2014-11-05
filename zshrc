@@ -38,3 +38,6 @@ antigen apply
 # Theme
 source ~/git/dotfiles/prompt.zsh-theme
 # End theme
+
+# Aliases
+alias gs='git status'

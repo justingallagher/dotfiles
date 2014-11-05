@@ -1,0 +1,7 @@
+[user]
+	name = Justin Gallagher
+	email = justingallag@gmail.com
+[color]
+	ui = true
+[push]
+	default = simple
