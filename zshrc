@@ -39,7 +39,7 @@ antigen apply
 vundle-init
 
 # Theme
-source ~/git/dotfiles/prompt.zsh-theme
+source ~/.prompt.zsh-theme
 # End theme
 
 # Aliases

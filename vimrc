@@ -5,7 +5,7 @@
 " @since 2014-11-05
 
 " Vundle and plugins
-source ~/git/dotfiles/vim_plugins.vim
+source ~/.vim_plugins.vim
 
 " Trailing whitespace
 nmap <silent> <leader>w :StripWhitespace<CR> :w<CR>
