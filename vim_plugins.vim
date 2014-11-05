@@ -56,6 +56,9 @@ Plugin 'ap/vim-css-color'
 " Colors galore
 Plugin 'tomasr/molokai'
 
+" Completion
+Plugin 'Valloric/YouCompleteMe'
+
 call vundle#end()
 filetype plugin indent on
 

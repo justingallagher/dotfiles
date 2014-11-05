@@ -1,6 +1,6 @@
 " @file vimrc
 " @brief Configures vim settings and plugins.
-" 	 Derived mostly from bezi/dotfiles.
+" 	     Derived mostly from bezi/dotfiles.
 " @author Justin Gallagher (justingallag@gmail.com)
 " @since 2014-11-05
 
@@ -14,6 +14,9 @@ nmap <silent> <leader>w :StripWhitespace<CR> :w<CR>
 colorscheme molokai
 set background=dark
 
+" 256 terminal colors to be supa pretty
+set t_Co=256
+
 " I like this more than the kalisi theme for airline
 let g:airline_theme='molokai'
 
@@ -22,9 +25,6 @@ set nu
 
 " set spacing to use spaces, not tabs, 4 spaces per indent
 set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
-
-" 256 terminal colors to be supa pretty
-set t_Co=256
 
 " put a line at column 81
 set cc=81
