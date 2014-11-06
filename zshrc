@@ -28,7 +28,9 @@ antigen bundle command-not-found
 antigen bundle compleat
 antigen bundle cp
 antigen bundle git
+antigen bundle pip
 antigen bundle safe-paste
+antigen bundle virtualenv
 antigen bundle vundle
 antigen bundle
 antigen bundle zsh-users/zsh-syntax-highlighting
