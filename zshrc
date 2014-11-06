@@ -44,5 +44,12 @@ vundle-init
 source ~/.prompt.zsh-theme
 # End theme
 
+# Load CMU Computer Club contrib
+if [ -f /afs/club.cc.cmu.ed/contrib/etc/bashrc ]; then
+    export PATH="$PATH:/afs/club.cc.cmu.edu/contrib/bin"
+    export MANPATH="$MANPATH:/afs/club.cc.cmu.edu/contrib/man"
+    export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/afs/club.cc.cmu.edu/contrib/lib"
+fi
+
 # Aliases
 alias gs='git status'
