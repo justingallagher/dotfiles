@@ -2,4 +2,6 @@
 	name = Justin Gallagher
 	email = justingallag@gmail.com
 [color]
-	ui = true
+    ui = true
+[push]
+    default = current
