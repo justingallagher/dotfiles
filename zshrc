@@ -42,6 +42,7 @@ vundle-init
 
 # Theme
 source ~/.prompt.zsh-theme
+source ~/.fehbg
 # End theme
 
 # Load CMU Computer Club contrib
