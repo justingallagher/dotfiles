@@ -31,9 +31,3 @@ Installation
    ```
    :PluginInstall
    ```
-7. From zsh, configure YouCompleteMe. Ensure that `build-essential`, `cmake`,
-   and `python-dev` packages are installed, then run:
-
-   ```
-   ~/.vim/bundle/YouCompleteMe/install.sh --clang-completer
-   ```
