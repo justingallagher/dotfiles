@@ -53,3 +53,5 @@ fi
 
 # Aliases
 alias gs='git status'
+
+archey
