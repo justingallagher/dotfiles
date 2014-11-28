@@ -1,1 +1,3 @@
-exec ~/.fehbg
+xrdb -merge ~/.Xresources
+sh ~/.fehbg &
+exec i3

@@ -7,26 +7,28 @@ Installation
 ------------
 
 1. [Install RCM](https://github.com/thoughtbot/rcm).
-2. In zsh, clone this repo and cd in.
+2. [Install the DejaVu Sans Mono for Powerline font](https://github.com/Lokaltog/powerline-fonts/tree/master/DejaVuSansMono).
+3. In zsh, clone this repo and cd in.
 
    ```
    git clone https://github.com/justingallagher/dotfiles.git;
    cd dotfiles;
    ```
-3. Use RCM to create the appropriate symlinks.
+4. Use RCM to create the appropriate symlinks.
 
    ```
    export RCRC=`pwd`/rcrc;
    lsrc -d .;
    rcup -d . -v;
    ```
-4. Install Antigen
+5. Install Antigen
 
    ```
    git submodule update --init --recursive
    ```
-5. Restart your terminal to allow antigen to install your modules.
-6. Open vim, and run:
+6. Restart your terminal to allow antigen to install your modules.
+7. Ensure the package `ctags` is installed.
+8. Open vim, and run:
 
    ```
    :PluginInstall
