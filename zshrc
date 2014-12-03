@@ -53,5 +53,9 @@ fi
 
 # Aliases
 alias gs='git status'
+alias pget='pacman -S'
+alias premove='pacman -Rs'
+alias pupdate='pacman -Syyu'
+alias psearch='pacman -Ss'
 
 archey
