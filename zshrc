@@ -21,6 +21,7 @@ compinit
 # Antigen
 source ~/.lib/antigen/antigen.zsh
 antigen use oh-my-zsh
+antigen bundle archlinux
 antigen bundle autoenv
 antigen bundle colored-man
 antigen bundle colorize
@@ -53,9 +54,5 @@ fi
 
 # Aliases
 alias gs='git status'
-alias pget='pacman -S'
-alias premove='pacman -Rs'
-alias pupdate='pacman -Syyu'
-alias psearch='pacman -Ss'
 
 archey
