@@ -22,6 +22,7 @@ compinit
 source ~/.lib/antigen/antigen.zsh
 antigen use oh-my-zsh
 antigen bundle autoenv
+antigen bundle archlinux
 antigen bundle colored-man
 antigen bundle colorize
 antigen bundle command-not-found
