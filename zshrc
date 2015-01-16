@@ -53,7 +53,14 @@ if [ -f /afs/club.cc.cmu.ed/contrib/etc/bashrc ]; then
     export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/afs/club.cc.cmu.edu/contrib/lib"
 fi
 
+# Set SML environment variables
+export SMLNJ_HOME=/usr/lib/smlnj
+export PATH=/usr/lib/smlnj/bin:$PATH
+
 # Aliases
 alias gs='git status'
 
-archey
+# Run archey if installed
+if type "archey3" > /dev/null; then
+    archey3
+fi
