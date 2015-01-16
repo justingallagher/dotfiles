@@ -143,3 +143,6 @@ set nobackup
 
 " remap 0 to first non-empty character
 map 0 ^
+
+" Spacing exception for SML
+au FileType sml setl sw=2 sts=2 et
