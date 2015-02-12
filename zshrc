@@ -59,6 +59,7 @@ export PATH=/usr/lib/smlnj/bin:$PATH
 
 # Aliases
 alias gs='git status'
+alias sml='rlwrap sml'
 
 # Run archey if installed
 if type "archey3" > /dev/null; then
