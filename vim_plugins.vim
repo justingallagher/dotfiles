@@ -85,3 +85,6 @@ let g:syntastic_warning_symbol = '!'
 
 " Ignore node_modules
 let g:ctrlp_custom_ignore = 'node_modules'
+
+" Disable concealment of text
+let g:tex_concael = ""

@@ -57,6 +57,9 @@ fi
 export SMLNJ_HOME=/usr/lib/smlnj
 export PATH=/usr/lib/smlnj/bin:$PATH
 
+# Set environment variables
+export EDITOR=vim
+
 # Aliases
 alias gs='git status'
 
