@@ -141,6 +141,9 @@ set noswapfile
 " don't use backup files (a.c~)
 set nobackup
 
+" lets lines wrap with correct preceding indentation
+set breakindent
+
 " remap 0 to first non-empty character
 map 0 ^
 
