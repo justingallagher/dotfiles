@@ -56,6 +56,9 @@ Plugin 'ap/vim-css-color'
 " Colors galore
 Plugin 'tomasr/molokai'
 
+" OpenGL Shading Language
+Plugin 'tikhomirov/vim-glsl'
+
 call vundle#end()
 filetype plugin indent on
 
