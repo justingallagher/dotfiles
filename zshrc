@@ -62,6 +62,6 @@ alias gs='git status'
 alias sml='rlwrap sml'
 
 # Run archey if installed
-if type "archey3" > /dev/null; then
+if type "archey3" 2> /dev/null; then
     archey3
 fi
