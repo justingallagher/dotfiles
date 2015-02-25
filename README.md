@@ -27,8 +27,7 @@ Installation
    git submodule update --init --recursive
    ```
 6. Restart your terminal to allow antigen to install your modules.
-7. Ensure the package `ctags` is installed.
-8. Open vim, and run:
+7. Open vim, and run:
 
    ```
    :PluginInstall
