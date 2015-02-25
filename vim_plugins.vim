@@ -56,6 +56,9 @@ Plugin 'ap/vim-css-color'
 " Colors galore
 Plugin 'tomasr/molokai'
 
+" OpenGL Shading Language
+Plugin 'tikhomirov/vim-glsl'
+
 call vundle#end()
 filetype plugin indent on
 
@@ -85,3 +88,6 @@ let g:syntastic_warning_symbol = '!'
 
 " Ignore node_modules
 let g:ctrlp_custom_ignore = 'node_modules'
+
+" Disable concealment of text
+let g:tex_concael = ""
