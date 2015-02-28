@@ -40,7 +40,6 @@ Plugin 'plasticboy/vim-markdown'
 
 " CTags
 Plugin 'xolox/vim-misc'
-Plugin 'xolox/vim-easytags'
 Plugin 'majutsushi/tagbar'
 
 " Syntastic
@@ -78,9 +77,6 @@ nmap <silent> <leader>. :CtrlPTag<CR>
 
 " Tagbar
 nmap <silent> <leader>b :TagbarToggle<CR>
-
-" EasyTags
-let g:easytags_events = ['BufReadPost', 'BufWritePost']
 
 " Syntastic
 let g:syntastic_error_symbol = '✗'
