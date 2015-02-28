@@ -22,11 +22,7 @@ compinit
 source ~/.lib/antigen/antigen.zsh
 antigen use oh-my-zsh
 
-if !hash "archey3" 2> /dev/null; then
 antigen bundle archlinux
-fi
-
-antigen bundle autoenv
 antigen bundle colored-man
 antigen bundle colorize
 antigen bundle command-not-found
@@ -67,6 +63,4 @@ alias gs='git status'
 alias sml='rlwrap sml'
 
 # Run archey if installed
-if !hash "archey3" 2> /dev/null; then
-    archey3
-fi
+archey3
