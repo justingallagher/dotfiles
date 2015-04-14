@@ -36,11 +36,6 @@ Plugin 'ntpeters/vim-better-whitespace'
 
 " Improved markdown support
 Plugin 'godlygeek/tabular'
-Plugin 'plasticboy/vim-markdown'
-
-" CTags
-Plugin 'xolox/vim-misc'
-Plugin 'majutsushi/tagbar'
 
 " Syntastic
 Plugin 'scrooloose/syntastic'
@@ -51,12 +46,17 @@ Plugin 'vim-scripts/HTML-AutoCloseTag'
 " Syntax highlighting
 Plugin 'pangloss/vim-javascript'
 Plugin 'ap/vim-css-color'
+Plugin 'tikhomirov/vim-glsl'
 
 " Colors galore
 Plugin 'tomasr/molokai'
 
-" OpenGL Shading Language
-Plugin 'tikhomirov/vim-glsl'
+" NERDTree
+Plugin 'scrooloose/nerdtree'
+Plugin 'jistr/vim-nerdtree-tabs'
+
+" tmux bindings
+Plugin 'christoomey/vim-tmux-navigator'
 
 call vundle#end()
 filetype plugin indent on
@@ -86,4 +86,8 @@ let g:syntastic_warning_symbol = '!'
 let g:ctrlp_custom_ignore = 'node_modules'
 
 " Disable concealment of text
-let g:tex_concael = ""
+let g:tex_conceal = ""
+
+" NERDTree
+nmap <silent> <leader>t :NERDTreeTabsToggle<CR>
+let g:nerdtree_tabs_open_on_console_startup = 0
