@@ -17,8 +17,10 @@ set background=dark
 " 256 terminal colors to be supa pretty
 set t_Co=256
 
-" I like this more than the kalisi theme for airline
+" airline settings
 let g:airline_theme='molokai'
+let g:airline_detect_paste=1
+let g:airline#extensions#tabline#enabled = 1
 
 " line numbering
 set nu
@@ -121,12 +123,6 @@ noremap <leader>q gqip
 
 " remap jj to escape for easier times
 inoremap jj <ESC>
-
-" navigate splits
-nnoremap <C-h> <C-w>h
-nnoremap <C-j> <C-w>j
-nnoremap <C-k> <C-w>k
-nnoremap <C-l> <C-w>l
 
 " split by default to the right
 set splitright
