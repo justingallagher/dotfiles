@@ -152,3 +152,6 @@ au FileType sml setl sw=2 sts=2 et
 
 " Allow mouse scrolling
 set mouse=a
+
+" Use ":w!!" to save files using sudo
+cmap w!! w !sudo tee > /dev/null %
