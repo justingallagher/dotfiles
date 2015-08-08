@@ -143,8 +143,9 @@ set breakindent
 " remap 0 to first non-empty character
 map 0 ^
 
-" Spacing exception for SML
+" Spacing exception for SML and JS
 au FileType sml setl sw=2 sts=2 et
+au FileType javascript setl sw=2 sts=2 et
 
 " Allow mouse scrolling
 set mouse=a
