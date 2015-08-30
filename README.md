@@ -7,7 +7,7 @@ Installation
 ------------
 
 1. [Install RCM](https://github.com/thoughtbot/rcm).
-2. [Install the DejaVu Sans Mono for Powerline font](https://github.com/Lokaltog/powerline-fonts/tree/master/DejaVuSansMono).
+2. [Install the Powerline fonts](https://github.com/Lokaltog/powerline-fonts).
 3. In zsh, clone this repo and cd in.
 
    ```

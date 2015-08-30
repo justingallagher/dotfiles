@@ -58,7 +58,7 @@ Xft.lcdfilter:  lcddefault
 
 ! urxvt ----------------------------------------------------------------------
 URxvt.letterSpace:			-1
-URxvt.font: xft:DejaVu Sans Mono for Powerline:size=10
+URxvt.font: xft:FiraMono for Powerline:size=10
 
 URxvt.xftAntialias:     	false
 URxvt*saveLines:        	12000
