@@ -7,11 +7,11 @@
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/vundle
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 " Vundle
-Plugin 'gmarik/Vundle.vim'
+Plugin 'VundleVim/Vundle.vim'
 
 " Airline
 Plugin 'bling/vim-airline'
@@ -49,7 +49,7 @@ Plugin 'ap/vim-css-color'
 Plugin 'tikhomirov/vim-glsl'
 
 " Colors galore
-Plugin 'tomasr/molokai'
+Plugin 'vim-airline/vim-airline-themes'
 
 " NERDTree
 Plugin 'scrooloose/nerdtree'

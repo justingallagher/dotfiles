@@ -11,14 +11,12 @@ source ~/.vim_plugins.vim
 nmap <silent> <leader>w :StripWhitespace<CR> :w<CR>
 
 " color scheme
-colorscheme molokai
 set background=dark
 
 " 256 terminal colors to be supa pretty
 set t_Co=256
 
 " airline settings
-let g:airline_theme='molokai'
 let g:airline_detect_paste=1
 let g:airline#extensions#tabline#enabled = 1
 
@@ -138,7 +136,9 @@ set noswapfile
 set nobackup
 
 " lets lines wrap with correct preceding indentation
-set breakindent
+if exists('+breakindent')
+    set breakindent
+endif
 
 " remap 0 to first non-empty character
 map 0 ^

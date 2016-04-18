@@ -32,7 +32,7 @@ antigen bundle git
 antigen bundle pip
 antigen bundle safe-paste
 antigen bundle virtualenv
-antigen bundle vundle
+antigen bundle VundleVim/Vundle.vim
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen apply
 # End Antigen
