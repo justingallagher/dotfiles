@@ -23,7 +23,7 @@ source ~/.lib/antigen/antigen.zsh
 antigen use oh-my-zsh
 
 antigen bundle archlinux
-antigen bundle colored-man
+antigen bundle colored-man-pages
 antigen bundle colorize
 antigen bundle command-not-found
 antigen bundle compleat
@@ -32,7 +32,7 @@ antigen bundle git
 antigen bundle pip
 antigen bundle safe-paste
 antigen bundle virtualenv
-antigen bundle VundleVim/Vundle.vim
+antigen bundle vundle
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen apply
 # End Antigen
@@ -43,17 +43,6 @@ vundle-init
 # Theme
 source ~/.prompt.zsh-theme
 # End theme
-
-# Load CMU Computer Club contrib
-if [ -f /afs/club.cc.cmu.ed/contrib/etc/bashrc ]; then
-    export PATH="$PATH:/afs/club.cc.cmu.edu/contrib/bin"
-    export MANPATH="$MANPATH:/afs/club.cc.cmu.edu/contrib/man"
-    export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/afs/club.cc.cmu.edu/contrib/lib"
-fi
-
-# Set SML environment variables
-export SMLNJ_HOME=/usr/lib/smlnj
-export PATH=/usr/lib/smlnj/bin:$PATH
 
 # Set environment variables
 export EDITOR=vim
