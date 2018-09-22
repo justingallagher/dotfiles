@@ -49,10 +49,6 @@ export EDITOR=vim
 
 # Aliases
 alias gs='git status'
-alias sml='rlwrap sml'
 
-# Run archey if installed
-archey3
-
-# Set touchpad scrolling direction
-xinput set-button-map 12 1 2 3 5 4 7 6
+# Show machine information
+screenfetch

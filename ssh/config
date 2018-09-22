@@ -11,16 +11,3 @@ ControlPersist 10m
 host executor
 hostname executor.justingallag.com
 user justin
-
-host modsnake
-hostname fuego.sbp.ri.cmu.edu
-user jrgallag
-port 7531
-
-host andrew
-hostname unix.andrew.cmu.edu
-user jrgallag
-
-host shark
-hostname shark.ics.cs.cmu.edu
-user jrgallag
