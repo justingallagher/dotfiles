@@ -50,5 +50,11 @@ export EDITOR=vim
 # Aliases
 alias gs='git status'
 
-# Show machine information
-screenfetch
+# Show machine information.
+# If running on WSL, show the Windows logo.
+if grep -q -i 'Microsoft' /proc/sys/kernel/osrelease 2>/dev/null
+then
+    screenfetch -A 'Windows - Modern' -c 14,
+else
+    screenfetch
+fi
