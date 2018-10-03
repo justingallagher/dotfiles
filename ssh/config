@@ -11,3 +11,7 @@ ControlPersist 10m
 host executor
 hostname executor.justingallag.com
 user justin
+
+host normandy
+hostname normandy.justingallag.com
+user justin
