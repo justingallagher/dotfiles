@@ -15,3 +15,7 @@ user justin
 host normandy
 hostname normandy.justingallag.com
 user justin
+
+host github.com
+hostname github.com
+user git
