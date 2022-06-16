@@ -11,7 +11,7 @@ Installation
 3. In zsh, clone this repo and cd in.
 
    ```
-   git clone https://github.com/justingallagher/dotfiles.git;
+   git clone git@github.com:justingallagher/dotfiles.git
    cd dotfiles;
    ```
 4. Use RCM to create the appropriate symlinks.
