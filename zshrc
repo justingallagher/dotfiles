@@ -60,7 +60,7 @@ else
 fi
 
 # Reset prompt every 60 seconds to update the clock.
-TMOUT=60
+TMOUT=1
 TRAPALRM() {
-    zle reset-prompt
+    [[ `date +%S` -eq "00" ]] && zle reset-prompt
 }
