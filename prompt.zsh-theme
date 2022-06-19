@@ -17,7 +17,7 @@ local git_info='$(git_prompt_info)'
 
 function precmd {
     local virtualenv_info=$([ $VIRTUAL_ENV ] && echo '('`basename $VIRTUAL_ENV`')')
-    PROMPT="╭─%{$FG[040]%}%n%{$reset_color%} %{$FG[239]%}at%{$reset_color%} %{$FG[033]%}$(box_name)%{$reset_color%} %{$FG[239]%}in%{$reset_color%} %{$terminfo[bold]$FG[226]%}${current_dir}%{$reset_color%}${git_info} %{$FG[239]%}at%{$FG[243]%} %{$FG[005]%}%D{%F %T}%{$reset_color%}
+    PROMPT="╭─%{$FG[040]%}%n%{$reset_color%} %{$FG[239]%}at%{$reset_color%} %{$FG[033]%}$(box_name)%{$reset_color%} %{$FG[239]%}in%{$reset_color%} %{$terminfo[bold]$FG[226]%}${current_dir}%{$reset_color%}${git_info} %{$FG[239]%}at%{$FG[243]%} %{$FG[005]%}%D{%F %H:%M}%{$reset_color%}
 ╰─${virtualenv_info}$(prompt_char) "
 }
 

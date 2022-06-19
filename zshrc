@@ -54,7 +54,13 @@ alias gs='git status'
 # If running on WSL, show the Windows logo.
 if grep -q -i 'Microsoft' /proc/sys/kernel/osrelease 2>/dev/null
 then
-    screenfetch -A 'Windows - Modern' -c 14,
+    neofetch --ascii_distro windows10
 else
-    screenfetch
+    neofetch
 fi
+
+# Reset prompt every 60 seconds to update the clock.
+TMOUT=60
+TRAPALRM() {
+    zle reset-prompt
+}
