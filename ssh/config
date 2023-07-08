@@ -19,3 +19,7 @@ user justin
 host github.com
 hostname github.com
 user git
+
+host venator
+hostname 192.168.1.18
+user justingallag
