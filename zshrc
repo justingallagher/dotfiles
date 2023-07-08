@@ -54,7 +54,7 @@ alias gs='git status'
 # If running on WSL, show the Windows logo.
 if grep -q -i 'Microsoft' /proc/sys/kernel/osrelease 2>/dev/null
 then
-    neofetch --ascii_distro windows10
+    neofetch --ascii_distro windows11
 else
     neofetch
 fi
