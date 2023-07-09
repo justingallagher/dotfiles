@@ -23,3 +23,10 @@ user git
 host venator
 hostname 192.168.1.18
 user justingallag
+hostkeyalias venator
+
+host venator-unlock
+hostname 192.168.1.18
+user root
+hostkeyalias venator-root
+port 2222
