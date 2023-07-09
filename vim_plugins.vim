@@ -26,19 +26,13 @@ Plugin 'Raimondi/delimitMate'
 Plugin 'airblade/vim-gitgutter'
 
 " Open files easily
-Plugin 'kien/ctrlp.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 
 " Indent highlighting
 Plugin 'Yggdroot/indentLine'
 
-" Highlight trailing whitespace
-Plugin 'ntpeters/vim-better-whitespace'
-
-" Improved markdown support
-Plugin 'godlygeek/tabular'
-
-" Syntastic
-Plugin 'scrooloose/syntastic'
+" Syntax highlighting
+Plugin 'dense-analysis/ale'
 
 " HTML/XML autoclose tags
 Plugin 'vim-scripts/HTML-AutoCloseTag'
@@ -51,13 +45,6 @@ Plugin 'tikhomirov/vim-glsl'
 " Colors galore
 Plugin 'vim-airline/vim-airline-themes'
 
-" NERDTree
-Plugin 'scrooloose/nerdtree'
-Plugin 'jistr/vim-nerdtree-tabs'
-
-" tmux bindings
-Plugin 'christoomey/vim-tmux-navigator'
-
 call vundle#end()
 filetype plugin indent on
 
@@ -65,6 +52,8 @@ filetype plugin indent on
 " Airline
 " use fancy airline font
 let g:airline_powerline_fonts = 1
+let g:airline_detect_paste=1
+let g:airline#extensions#tabline#enabled = 1
 
 " DelimitMate
 " activate smarter delimiting
@@ -75,19 +64,12 @@ let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 nmap <silent> <leader>. :CtrlPTag<CR>
 
-" Tagbar
-nmap <silent> <leader>b :TagbarToggle<CR>
-
-" Syntastic
-let g:syntastic_error_symbol = '✗'
-let g:syntastic_warning_symbol = '!'
-
 " Ignore node_modules
 let g:ctrlp_custom_ignore = 'node_modules'
 
 " Disable concealment of text
 let g:tex_conceal = ""
 
-" NERDTree
-nmap <silent> <leader>t :NERDTreeTabsToggle<CR>
-let g:nerdtree_tabs_open_on_console_startup = 0
+" ALE syntax highlighting
+let g:ale_fixers = {'*': ['remove_trailing_lines', 'trim_whitespace']}
+let g:ale_fix_on_save = 1

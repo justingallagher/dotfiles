@@ -7,18 +7,11 @@
 " Vundle and plugins
 source ~/.vim_plugins.vim
 
-" Trailing whitespace
-nmap <silent> <leader>w :StripWhitespace<CR> :w<CR>
-
 " color scheme
 set background=dark
 
 " 256 terminal colors to be supa pretty
 set t_Co=256
-
-" airline settings
-let g:airline_detect_paste=1
-let g:airline#extensions#tabline#enabled = 1
 
 " line numbering
 set nu
@@ -28,6 +21,7 @@ set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 
 " put a line at column 81
 set cc=81
+highlight ColorColumn ctermbg=darkgray
 
 " syntax highlighting
 syntax enable
